@@ -46,7 +46,7 @@ resource "google_container_node_pool" "primary_nodes" {
     ]
 
     labels = {
-      env = var.project_id
+      env = "red-parity-454414-e0"
     }
 
     # preemptible  = true
